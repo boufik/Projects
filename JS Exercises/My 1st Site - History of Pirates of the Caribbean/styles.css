@@ -1,0 +1,47 @@
+body{
+    font-family: Manjari;
+    background-color: rgb(40,180,125);
+    text-align: center;
+  }  
+   
+  nav{
+      text-align: left;
+  }  
+   
+  figcapture{
+    text-align: center;
+    font-family: Papyrus;
+  }
+   
+   
+  .list1 a, .list1 li{
+    font-size: 18px;
+    color: rgb(240,200,220);
+  }
+   
+  .papyrus{
+    font-family: Papyrus;
+  }
+   
+  h1.blue{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+  }
+   
+   
+  h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(240,200,220);
+  }
+   
+  h2, figure{
+    text-align: center;
+  }
+   
+  p.aboutme, #about-me{
+    font-size: 16px;
+    font-family: Georgia;
+    color: Rebeccapurple
+  }

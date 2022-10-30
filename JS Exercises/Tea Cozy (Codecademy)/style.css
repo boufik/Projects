@@ -1,0 +1,217 @@
+body{
+    /*margin: 0;*/
+    font-family: Helvetica;
+    background-color: black;
+    color: rgb(245, 221, 205);
+    opacity: 0.9;
+}
+
+
+/* Header Section*/
+
+header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 2px solid seashell;
+}
+
+h1.inlineBlock{
+    margin-left: 10px;
+    display: inline-block;
+    color: rgb(245, 221, 205);;
+    font-family: "Helvetica", cursive;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+h2.inlineBlock{
+    margin-right: 10px;
+    padding: 0 20px;
+    /*display: inline-block;*/
+    color: rgb(245, 221, 205);;
+    font-size: 18px;
+    text-decoration: underline;
+    float: right;
+}
+
+header a{
+    position: relative;
+    bottom: 90px;
+}
+
+
+/* Section with image*/
+
+section.image{
+    height: 700px;
+    width: 1200px;
+    /*border: 3px solid red;*/
+    margin: 0 auto;
+    background-image: url("./img-mission-background.jpg");
+}
+
+div.h{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    color: rgb(245, 221, 205);;
+    position: relative;
+    top: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.h h2{
+    width: 100%;
+    position: relative;
+    left: 530px;
+}
+
+
+/* Section with the 5 photos*/
+section.photos{
+    width: 1000px;
+    /*border: 3px solid red;*/
+    text-align: center;
+    margin: 40px auto;
+}
+
+section.photos h1{
+    font-size: 36px;
+    color: rgb(245, 221, 205);;
+    text-decoration: underline;
+}
+
+section.photos h2{
+    font-size: 24px;
+    color: rgb(245, 221, 205);;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+div.photo{
+    height: 200px;
+    width: 300px;
+    margin: 20px 0;
+    /*border: 2px solid red;*/
+}
+
+#photo1{
+    background-image: url("./img-berryblitz.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#photo2{
+    background-image: url("./img-spiced-rum.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#photo3{
+    background-image: url("./img-donut.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#photo4{
+    background-image: url("./img-myrtle-ave.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#photo5{
+    background-image: url("./img-bedford-bizarre.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+div.container div h2{
+    font-style: italic;
+}
+
+
+/* Section with locations*/
+section.locations{
+    height: 500px;
+    width: 1000px;
+    text-align: center;
+    margin: 30px auto;
+    /*border: 3px solid red;*/
+    background-image: url("./img-locations-background.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+div.div1{
+    height: 150px;
+    width: 100%;
+    /*border: 1px solid blue;*/
+}
+
+
+div.div1 h1{
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+}
+
+
+div.container2{
+    height: 350px;
+    width: 100%;
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.container2 div.box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 0 20px;
+    background-color: black;
+    border: 3px solid rgb(150, 12, 12);
+}
+
+div.box h3, div.box h4{
+    margin: 30px auto;
+}
+
+
+
+/* Last Section */
+section.end{
+    text-align: center;
+}
+
+section.end h1{
+    font-size: 36px;
+}
+
+section.end h5{
+    font-size: 18px;
+    margin: 45px;
+}
+
+footer h3{
+    text-align: left;
+    margin-left: 20px;
+}
