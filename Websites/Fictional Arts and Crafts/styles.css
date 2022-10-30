@@ -1,0 +1,46 @@
+body{
+    font-family: Helvetica;
+}
+
+h2{
+    text-align: left;
+    color: black;
+}
+
+h1.khaki{
+    text-align: center;
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url("backgroundImage.png");
+}
+
+h1.brushes{
+    text-align: left; 
+    font-size: 32px;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+h1.frames{
+    text-align: left;
+    font-size: 32px;
+    color: white;
+    background-color: lightcoral;
+}
+
+h1.paint{
+    text-align: left;
+    font-size: 32px;
+    color: white;
+    background-color: skyblue;
+}
+
+
+img{
+    text-align: left;
+}
+
+strong{
+    color: blue;
+}
