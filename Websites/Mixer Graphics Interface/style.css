@@ -1,0 +1,137 @@
+body{
+    background-color: #212c3d;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    background-color: #212c3d;
+    height: 48px;
+    width: 100%;
+    /*border: 3px solid red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    /*display: inline-block;*/
+    height: 100%;
+    width: 49%;
+    /*border: 2px solid green;*/
+    display: flex;
+}
+
+div.navLeft{
+    justify-content: flex-start;
+}
+
+
+div.navLeft a, div.navLeft img{
+    height: 100%;
+    width: auto;
+    /*border: 1px solid red;*/
+}
+
+div.navLeft h2{
+    margin: 0 10px;
+    color: grey;
+    font-size: 16px;
+    /*border: 1px solid red;*/
+    position: relative;
+    top: 16.66%;
+}
+
+div.navRight{
+    justify-content: flex-end;
+}
+
+div.navRight img{
+    height: 100%;
+    width: auto;
+    margin: 0 20px;
+}
+
+div.navRight h2{
+    height: 100%;
+    width: auto;
+    /*border: 1px solid red;*/
+    border-radius: 15%;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    margin: 0 10px;
+}
+
+
+
+/* SECTION */
+section.section1{
+    height: 90vh;
+    width: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+section.section1 div.left{
+    height: 100%;
+    width: 74%;
+    /*border: 1px solid blue;*/
+}
+
+section.section1 div.right{
+    height: 100%;
+    width: 24%;
+    border: 2px solid blue;
+}
+
+div.left div.screen{
+    width: 100%;
+    height: 85%;
+    /*border: 1px solid pink;*/
+}
+
+div.left div.streamerInfo{
+    width: 100%;
+    height: 15%;
+    border: 1px solid pink;
+}
+
+div.screen img{
+    width: 100%;
+    height: auto;
+}
+
+.section1 .container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*
+.section1 .container .item{
+    border: 1px solid red;
+}
+*/
+
+.section1 .container .item img{
+    height: 11%;
+    width: auto;
+}
+
+.item img.logo{
+    height: 4%;
+    width: auto;
+    position: relative;
+    right: 200%;
+}
+
+.container h1.item{
+    color: lightgrey;
+    font-size: 16px;
+    position: relative;
+    right: 67%;
+}
+
+.container #viewersCounter{
+    right: 88%;
+}
+
