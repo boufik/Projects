@@ -1,0 +1,31 @@
+body{
+    background-image: url("hall.jpg");
+    color: azure;
+}
+
+#board {
+    position: absolute;
+    left: 467;
+    top: 311;
+    opacity: 0;
+}
+
+#board:hover {
+    opacity: 1;
+}
+
+#stairs {
+    background-color: beige;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 585;
+    top: 317;
+    transform: rotate(10deg);
+    opacity: 0;
+}
+
+#size{
+    width: 200px;
+    height: 100px;
+}
